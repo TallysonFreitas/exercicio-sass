@@ -37,7 +37,8 @@ header {
 }
 .form-container form {
   margin-top: 40px;
-  width: 30vw;
+  width: 100%;
+  max-width: 80%;
 }
 .form-container form label {
   font-weight: bold;
@@ -66,13 +67,13 @@ header {
   border: none;
   cursor: pointer;
 }
+.form-container form button:hover {
+  background-color: #9d3020;
+}
 
 @media screen and (max-width: 767px) {
-  .form-container h2 {
-    font-size: 1.8em;
-  }
-  .form-container form {
-    width: 70vw;
+  .container {
+    max-width: 80vw;
   }
 }
 
